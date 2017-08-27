@@ -12,6 +12,7 @@ Examples :
 
 
   options usage:
+    ================================================================================================
     https://jsfiddle.net/TeodorZhelyazkov/wue4m7ma/
     
     var dmObj = new dateMap({
@@ -27,10 +28,10 @@ Examples :
     
     var dmObj = new dateMap({
       selector     	: "#minMax_example",
-      minDate			: '2017-09-08',
-      maxDate			: '2017-09-18',
-      weekendColor   	: '#FFD700',
-      minMaxClicked: function(rangeType, current, plugin)
+      minDate			  : '2017-09-08',
+      maxDate			  : '2017-09-18',
+      weekendColor  : '#FFD700',
+      minMaxClicked : function(rangeType, current, plugin)
       {
         alert("You click : \n "+ rangeType + " \n and date : \n" + current);
 
