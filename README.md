@@ -1,5 +1,6 @@
-# dateMap.js, datemap.js
-dateMap.js it's a simple pure javascript library
+# dateMap 
+dateMap it's a simple pure javascript library for selecting dates.
+
 
 Examples : 
 
