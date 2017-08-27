@@ -1,12 +1,6 @@
 # dateMap.js, datemap.js
 dateMap.js is a simple pure javascript lybrary 
 
-			
-		
-			
-			
-			
- 
 Examples : 
 
   default usage:
