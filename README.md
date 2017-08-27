@@ -12,15 +12,16 @@ Examples :
 
 
   options usage:
-<pre><code>
-var dmObj = new dateMap({
-  selector     	: "#default_example",
-  dateFormat   	: 'm/d/y',
-  startDate    	: '09/18/2117',
-  weekendColor  : '#FFD700',
-});
-</code></pre>
     https://jsfiddle.net/TeodorZhelyazkov/wue4m7ma/
+    
+    <pre><code>
+    var dmObj = new dateMap({
+      selector     	: "#default_example",
+      dateFormat   	: 'm/d/y',
+      startDate    	: '09/18/2117',
+      weekendColor  : '#FFD700',
+    });
+    </code></pre>
     
   min/max date usage:
     https://jsfiddle.net/TeodorZhelyazkov/2unwgcae/
