@@ -1,23 +1,7 @@
-/**
-*	@method getDayWeek
-*
-*	@return {Int}
-*
-*	return Sunday as '7' not as '0'
-*/
-Date.prototype.getDayWeek = function()
-{
-	if( this.getDay() == 0 )
-		return 7;
-	else
-		return this.getDay();
-}
-
 var monthNames = [
 	"January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
 ];
 
-// immediately invoked function
 (function() {
 
 	// white list
@@ -1264,3 +1248,18 @@ var monthNames = [
 	}
 
 }());
+
+/**
+*	@method getDayWeek
+*
+*	@return {Int}
+*
+*	return Sunday as '7' not as '0'
+*/
+Date.prototype.getDayWeek = function()
+{
+	if( this.getDay() == 0 )
+		return 7;
+	else
+		return this.getDay();
+}
