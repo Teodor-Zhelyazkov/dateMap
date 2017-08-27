@@ -15,3 +15,6 @@ Examples :
     
   disabledEvents usage:
     https://jsfiddle.net/TeodorZhelyazkov/8qad6s62/
+  
+  Min and Max date to another dateMap:
+    https://jsfiddle.net/TeodorZhelyazkov/oo3329sn/
