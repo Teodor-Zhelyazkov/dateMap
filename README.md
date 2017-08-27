@@ -9,9 +9,6 @@ Examples :
 
   default usage:
     https://jsfiddle.net/TeodorZhelyazkov/cw6c3xfc/
-
-  options usage:
-    https://jsfiddle.net/TeodorZhelyazkov/wue4m7ma/
     
   min/max date usage:
     https://jsfiddle.net/TeodorZhelyazkov/2unwgcae/
