@@ -9,3 +9,6 @@ Examples :
 
   options usage:
     https://jsfiddle.net/TeodorZhelyazkov/wue4m7ma/
+    
+  min/max date usage:
+    https://jsfiddle.net/TeodorZhelyazkov/2unwgcae/
