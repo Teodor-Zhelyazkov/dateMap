@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+		<script src="datemap.js"></script>
+		<link rel="stylesheet" href="datemap.css">
+
+
+		<style>
+			textarea{
+				border: none;
+				resize: none
+			}
+			h2{
+				font-size: 18px;
+				color:#333333;
+			}
+		</style>
+
+	</head>
+
+	<body>
+
+		<h1>Examples : </h1>
+
+		<article>
+
+			<h2>Default usage </h2>
+			<input type = "text" id = "default_example" />
+			<br />
+
+			<script>
+				var dmObj = new dateMap({
+					selector : "#default_example",
+				});
+			</script>
+
+		</article>
+
+		<article>
+
+			<h2>Working with dateFormat, startDate, weekendColor </h2>
+			<p></p>
+			<br />
+			<input type = "text" id = "default_example" />
+
+			<script>
+
+				var dmObj = new dateMap({
+					selector     	: "#default_example",
+					dateFormat   	: 'm/d/y',
+					startDate    	: '09/18/2117',
+					weekendColor   	: '#FFD700',
+				});
+
+			</script>
+
+		</article>
+
+		<article>
+
+			<h2>Working with Min/Max dates  </h2>
+			<br />
+			<input type = "text" id = "minMax_example" />
+
+			<script>
+
+				var dmObj = new dateMap({
+					selector     	: "#minMax_example",
+					minDate			: '2017-09-08',
+					maxDate			: '2017-09-18',
+					weekendColor   	: '#FFD700',
+					minMaxClicked: function(rangeType, current, plugin)
+					{
+						alert("You click : \n "+ rangeType + " \n and date : \n" + current);
+
+						// plugin.closeWindow();
+					},
+				});
+
+			</script>
+
+		</article>
+
+		<article>
+
+			<h2>Working Event methods  </h2>
+			<br />
+			<input type = "text" id = "events_example" />
+
+			<script>
+
+				var dmObj = new dateMap({
+					selector     	: "#events_example",
+					selectDate : function(selectedDate, plugin, event)
+					{
+
+					},
+					moveDate   : function(current, moveObj, plugin)
+					{
+
+					},
+					beforeShow :function(plugin)
+					{
+
+					},
+					onClose :function()
+					{
+
+					},
+				});
+
+			</script>
+
+		</article>
+
+		<article>
+
+			<h2>Working with disabledEvents </h2>
+			<input type = "text" id = "disEvents_example" />
+			<br />
+			<br />
+			<labele>Add date to disabledEvents</label>
+			<br />
+			<select id = "dates_select">
+				<option value = "2017-09-06">2017-09-06</option>
+				<option value = "2017-09-08">2017-09-08</option>
+				<option value = "2017-09-09">2017-09-09</option>
+				<option value = "2017-09-10">2017-09-10</option>
+				<option value = "2017-09-11">2017-09-11</option>
+			</select>
+			<button id = "add_events">Add</button>
+			<br />
+			<br />
+			<labele>Clear disabledEvents</label>
+			<br />
+			<button id = "clear_events">Clear</button>
+			<script>
+
+				var dmObj = new dateMap({
+					selector     	: "#disEvents_example",
+					startDate    	: '2017-09-18',
+					weekendColor   	: '#a52a2a',
+					disabledEvents 	:
+					[
+						{
+							title   : "Reserved Event",
+							dateStr : "2017-09-19",
+						},
+						{
+							title   : "Reserved Event 2",
+							dateStr : "2017-09-21",
+
+						},
+					],
+					eventClicked : function(title, currentDate, plugin)
+					{
+						alert('You just clicked event with title : \n \"' + title + ' \" \n and date : \n '+ currentDate);
+					},
+				});
+
+				/*
+					Lets say something on your web page did change
+					and your dateMap field depends to this changes
+				*/
+				var buttonAdd 		= document.getElementById("add_events");
+				var select     		= document.getElementById("dates_select");
+
+				buttonAdd.onclick 	= function()
+				{
+					// add newDisabledEvent
+					dmObj.newDisabledEvent(select.value, "New testing event");
+				}
+
+				/*
+					Clear disabledEvents
+				*/
+				var buttonClear      = document.getElementById("clear_events");
+				buttonClear.onclick  = function()
+				{
+					// delete all disabledEvents
+					dmObj.clearDisabledEvents();
+				}
+
+			</script>
+
+		</article>
+
+		<article>
+
+			<h2>Min and Max date to another dateMap </h2>
+			<label>Start date</label>
+			<input type = "text" id = "start_example" />
+			<br />
+			<label>End date</label>
+			<input type = "text" id = "end_example" />
+
+			<script>
+
+				var start = new dateMap({
+					selector : "#start_example",
+					selectDate : function(selectedDate, plugin)
+				  	{
+						end.setMinDate(selectedDate);
+					}
+				});
+
+				var end = new dateMap({
+					selector : "#end_example",
+					selectDate : function(selectedDate, plugin)
+					{
+						start.setMaxDate(selectedDate);
+					}
+				});
+
+			</script>
+
+		</article>
+
+
+
+	</body>
+
+</html>
