@@ -3,11 +3,9 @@ dateMap.js is a simple pure javascript lybrary
 
 Examples : 
 
-  default:
-  
+  default usage:
     https://jsfiddle.net/TeodorZhelyazkov/cw6c3xfc/
 
 
-  options:
-  
+  options usage:
     https://jsfiddle.net/TeodorZhelyazkov/wue4m7ma/
