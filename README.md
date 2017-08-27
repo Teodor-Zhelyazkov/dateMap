@@ -1,9 +1,5 @@
 # dateMap.js, datemap.js
-dateMap.js is a simple pure javascript lybrary 
-
-
-
-
+dateMap.js it's a simple pure javascript library
 
 Examples : 
 
