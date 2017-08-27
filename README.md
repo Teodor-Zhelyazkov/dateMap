@@ -2,14 +2,14 @@
 dateMap.js is a simple pure javascript lybrary 
 
 
-
+<pre><code>
 var dmObj = new dateMap({
   selector     	: "#default_example",
   dateFormat   	: 'm/d/y',
   startDate    	: '09/18/2117',
   weekendColor   	: '#FFD700',
 });
-
+</code></pre>
 
 
 Examples : 
