@@ -1,5 +1,5 @@
-# dateMap
-dateMap, date-picker
+# dateMap.js
+dateMap.js is a simple pure javascript lybrary 
 
 Examples : 
 
