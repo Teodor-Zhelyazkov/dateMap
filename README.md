@@ -2,14 +2,7 @@
 dateMap.js is a simple pure javascript lybrary 
 
 
-<pre><code>
-var dmObj = new dateMap({
-  selector     	: "#default_example",
-  dateFormat   	: 'm/d/y',
-  startDate    	: '09/18/2117',
-  weekendColor   	: '#FFD700',
-});
-</code></pre>
+
 
 
 Examples : 
@@ -19,6 +12,14 @@ Examples :
 
 
   options usage:
+<pre><code>
+var dmObj = new dateMap({
+  selector     	: "#default_example",
+  dateFormat   	: 'm/d/y',
+  startDate    	: '09/18/2117',
+  weekendColor  : '#FFD700',
+});
+</code></pre>
     https://jsfiddle.net/TeodorZhelyazkov/wue4m7ma/
     
   min/max date usage:
