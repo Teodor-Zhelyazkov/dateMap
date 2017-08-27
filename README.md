@@ -12,3 +12,6 @@ Examples :
     
   min/max date usage:
     https://jsfiddle.net/TeodorZhelyazkov/2unwgcae/
+    
+  disabledEvents usage:
+    https://jsfiddle.net/TeodorZhelyazkov/8qad6s62/
