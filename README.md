@@ -46,28 +46,29 @@ dmObj.destroy();
 
 // add new disabled event to dateMap object
 dmObj.newDisabledEvent( $date, $title );
+
 </code></pre>
 
 <h4>Events usage </h4>
 <pre><code>
 var dmObj = new dateMap({
-    selector   : "#events_example",
-    selectDate : function(selectedDate, plugin, event)
-    {
+  selector   : "#events_example",
+  selectDate : function(selectedDate, plugin, event)
+  {
 
-    },
-    moveDate   : function(current, moveObj, plugin)
-    {
+  },
+  moveDate   : function(current, moveObj, plugin)
+  {
 
-    },
-    beforeShow :function(plugin)
-    {
+  },
+  beforeShow :function(plugin)
+  {
 
-    },
-    onClose    :function()
-    {
+  },
+  onClose    :function()
+  {
 
-    },
+  },
 });
 </code></pre>
 
