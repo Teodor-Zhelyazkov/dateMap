@@ -50,8 +50,7 @@ dmObj.newDisabledEvent( $date, $title );
 </code></pre>
 
 <h4>Events usage </h4>
-
-
+<br />
 
 var dmObj = new dateMap({
     selector   : "#events_example",
@@ -73,9 +72,7 @@ var dmObj = new dateMap({
     },
 });
 
-
-
-
+<br />
 
 Examples : 
 
