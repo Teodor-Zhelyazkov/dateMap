@@ -52,7 +52,7 @@ dmObj.newDisabledEvent( $date, $title );
 ```
 
 var dmObj = new dateMap({
-    selector     	: "#events_example",
+    selector   : "#events_example",
     selectDate : function(selectedDate, plugin, event)
     {
 
@@ -65,7 +65,7 @@ var dmObj = new dateMap({
     {
 
     },
-    onClose :function()
+    onClose    :function()
     {
 
     },
