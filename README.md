@@ -16,7 +16,7 @@ Include dateMap library on your webpage
 < link rel="stylesheet" href="datemap.css">
 </code></pre>
 
-Init dateMap 
+Init dateMap object
 
 
 
@@ -31,7 +31,7 @@ var dmObj = new dateMap({
   },
 });
 </code></pre>
-Note: Varible "dmObj" and "plugin" parameter is the same dateMap instance 
+Note: Variable "dmObj" and "plugin" parameter is the same dateMap instance 
 
 <h4>Method usage </h4>
 <pre><code>
