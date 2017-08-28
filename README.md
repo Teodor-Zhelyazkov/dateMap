@@ -10,10 +10,11 @@ Download files datemap.js and datemap.css from this repository
 <h3>Usage</h3>
 
 Include the library
-<code>
+
+<pre><code>
 < script src="datemap.js"></script>
 < link rel="stylesheet" href="datemap.css">
-</code>
+</code></pre>
 
 
 
