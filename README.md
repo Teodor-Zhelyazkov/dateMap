@@ -18,13 +18,33 @@ Include dateMap library on your webpage
 
 Init dateMap 
 
+<div class="highlight highlight-text-html-basic"><pre>&lt;<span class="pl-ent">div</span> <span class="pl-e">id</span>=<span class="pl-s"><span class="pl-pds">"</span>slider<span class="pl-pds">"</span></span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>swipe<span class="pl-pds">"</span></span>&gt;
+  &lt;<span class="pl-ent">div</span> <span class="pl-e">class</span>=<span class="pl-s"><span class="pl-pds">"</span>swipe-wrap<span class="pl-pds">"</span></span>&gt;
+    &lt;<span class="pl-ent">div</span>&gt;&lt;/<span class="pl-ent">div</span>&gt;
+    &lt;<span class="pl-ent">div</span>&gt;&lt;/<span class="pl-ent">div</span>&gt;
+    &lt;<span class="pl-ent">div</span>&gt;&lt;/<span class="pl-ent">div</span>&gt;
+  &lt;/<span class="pl-ent">div</span>&gt;
+&lt;/<span class="pl-ent">div</span>&gt;</pre></div>
+
+
 <pre><code>
 < input type = "text" id = "default_example" / >
 
 var dmObj = new dateMap({
-  selector : "#default_example",
+  selector   : "#default_example",
+  selectDate : function(selectedDate, plugin, event)
+  {
+      
+  },
 });
 </code></pre>
+
+<h4>Method usage </h4>
+<pre><code>
+dmObj.closeWindow();
+</code></pre>
+
+Note: Varible "dmObj" and "plugin" parameter is the same dateMap instance 
 
 Examples : 
 
