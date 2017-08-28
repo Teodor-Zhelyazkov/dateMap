@@ -34,10 +34,9 @@ var dmObj = new dateMap({
 Note: Variable "dmObj" and "plugin" parameter is the same dateMap instance 
 
 <h4>Method usage </h4>
-<pre><code>
+<pre>
 // close calendar window
 dmObj.closeWindow();
-
 
 // refresh calendar object
 dmObj.refresh();
@@ -48,7 +47,7 @@ dmObj.destroy();
 // add new disabled event to dateMap object
 dmObj.newDisabledEvent( $date, $title );
 
-</code></pre>
+</pre>
 
 
 
