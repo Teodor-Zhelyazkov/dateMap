@@ -1,6 +1,13 @@
 # dateMap 
 dateMap it's a simple pure javascript library for selecting dates.
 
+# get started 
+
+<script src="datemap.js"></script>
+<link rel="stylesheet" href="datemap.css">
+
+
+
 
 Examples : 
 
