@@ -19,7 +19,7 @@ Include the library
 Init dateMap
 
 <pre><code>
-<input type = "text" id = "default_example" />
+< input type = "text" id = "default_example" / >
 </code></pre>
 
 <pre><code>
