@@ -56,19 +56,19 @@ var dmObj = new dateMap({
     selectDate : function(selectedDate, plugin, event)
     {
 
-    },
-    moveDate   : function(current, moveObj, plugin)
-    {
+      },
+      moveDate   : function(current, moveObj, plugin)
+      {
 
-    },
-    beforeShow :function(plugin) 
-    {
+      },
+      beforeShow :function(plugin) 
+      {
 
-    },
-    onClose    :function()
-    {
+      },
+      onClose    :function()
+      {
 
-    },
+      },
 });
 </pre></code>
 
@@ -86,13 +86,3 @@ Examples :
   Min and Max date to another dateMap:
     https://jsfiddle.net/TeodorZhelyazkov/oo3329sn/
     
-<style>
-code { 
-    background: hsl(220, 80%, 90%); 
-}
-
-pre {
-    white-space: pre-wrap;
-    background: hsl(30,80%,90%);
-}
-</style>
