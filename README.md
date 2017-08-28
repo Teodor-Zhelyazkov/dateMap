@@ -1,5 +1,5 @@
 # dateMap 
-dateMap it's a simple pure javascript library for selecting dates.
+dateMap it's a simple pure javascript library for selecting dates. Easy to use and easy to add or change custom styles.
 
 # get started 
 
