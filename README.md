@@ -11,16 +11,14 @@ Download files <b>datemap.js</b> and <b>datemap.css</b> from this repository
 
 Include dateMap library on your webpage
 
-<pre><code>
+```
 < script src="datemap.js"></script >
 < link rel="stylesheet" href="datemap.css">
-</code></pre>
+```
 
 Init dateMap object
 
-
-
-<pre><code>
+```
 < input type = "text" id = "default_example" / >
 
 var dmObj = new dateMap({
@@ -30,12 +28,12 @@ var dmObj = new dateMap({
       
   },
 });
-</code></pre>
+```
 Note: Variable "dmObj" and "plugin" parameter is the same dateMap instance 
 
 <h4>Method usage </h4>
 
-
+```
 // close calendar window
 dmObj.closeWindow();
 
@@ -47,7 +45,7 @@ dmObj.destroy();
 
 // add new disabled event to dateMap object
 dmObj.newDisabledEvent( $date, $title );
-
+```
 
 
 
