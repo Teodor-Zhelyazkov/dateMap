@@ -36,11 +36,11 @@ Note: Variable "dmObj" and "plugin" parameter is the same dateMap instance
 ```
 
 var dmObj = new dateMap({
-    selector     	 : "#default_example",
-    dateFormat   	 : 'm/d/y',
-    startDate    	 : '09/18/2117',
-    weekendColor : '#FFD700',
-    disabledEvents 	:
+    selector: "#default_example",
+    dateFormat: 'm/d/y',
+    startDate: '09/18/2117',
+    weekendColor: '#FFD700',
+    disabledEvents:
     [
       {
         title   : "Reserved Event",
