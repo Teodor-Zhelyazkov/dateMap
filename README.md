@@ -50,8 +50,7 @@ dmObj.newDisabledEvent( $date, $title );
 </code></pre>
 
 <h4>Events usage </h4>
-<code>
-
+<pre><code>
 var dmObj = new dateMap({
     selector   : "#events_example",
     selectDate : function(selectedDate, plugin, event)
@@ -71,8 +70,7 @@ var dmObj = new dateMap({
 
     },
 });
-
-</code>
+</pre></code>
 
 Examples : 
 
@@ -87,3 +85,14 @@ Examples :
   
   Min and Max date to another dateMap:
     https://jsfiddle.net/TeodorZhelyazkov/oo3329sn/
+    
+<style>
+code { 
+    background: hsl(220, 80%, 90%); 
+}
+
+pre {
+    white-space: pre-wrap;
+    background: hsl(30,80%,90%);
+}
+</style>
