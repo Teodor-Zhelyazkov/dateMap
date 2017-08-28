@@ -55,20 +55,20 @@ var dmObj = new dateMap({
     selector   : "#events_example",
     selectDate : function(selectedDate, plugin, event)
     {
-
-      },
-      moveDate   : function(current, moveObj, plugin)
-      {
-
-      },
-      beforeShow :function(plugin) 
-      {
-
-      },
-      onClose    :function()
-      {
-
-      },
+    
+    },
+    moveDate   : function(current, moveObj, plugin)
+    {
+    
+    },
+    beforeShow :function(plugin) 
+    {
+    
+    },
+    onClose    :function()
+    {
+    
+    },
 });
 </pre></code>
 
