@@ -30,9 +30,8 @@ var dmObj = new dateMap({
       
   },
 });
-Note: Varible "dmObj" and "plugin" parameter is the same dateMap instance 
-
 </code></pre>
+Note: Varible "dmObj" and "plugin" parameter is the same dateMap instance 
 
 <h4>Method usage </h4>
 <pre><code>
@@ -49,7 +48,28 @@ dmObj.destroy();
 dmObj.newDisabledEvent( $date, $title );
 </code></pre>
 
+<h4>Events usage </h4>
+<pre><code>
+var dmObj = new dateMap({
+    selector   : "#events_example",
+    selectDate : function(selectedDate, plugin, event)
+    {
 
+    },
+    moveDate   : function(current, moveObj, plugin)
+    {
+
+    },
+    beforeShow :function(plugin)
+    {
+
+    },
+    onClose    :function()
+    {
+
+    },
+});
+</code></pre>
 
 Examples : 
 
