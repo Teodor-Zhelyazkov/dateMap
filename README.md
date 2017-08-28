@@ -12,7 +12,7 @@ Download files <b>datemap.js</b> and <b>datemap.css</b> from this repository
 Include dateMap library on your webpage
 
 <pre><code>
-< script src="datemap.js"></script>
+< script src="datemap.js"></script >
 < link rel="stylesheet" href="datemap.css">
 </code></pre>
 
@@ -20,9 +20,7 @@ Init dateMap
 
 <pre><code>
 < input type = "text" id = "default_example" / >
-</code></pre>
 
-<pre><code>
 var dmObj = new dateMap({
   selector : "#default_example",
 });
