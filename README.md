@@ -30,19 +30,26 @@ var dmObj = new dateMap({
       
   },
 });
+Note: Varible "dmObj" and "plugin" parameter is the same dateMap instance 
+
 </code></pre>
 
 <h4>Method usage </h4>
 <pre><code>
 // close calendar window
 dmObj.closeWindow();
+
 // refresh calendar object
 dmObj.refresh();
-// destroy dateMap instance
+
+// destroys dateMap instance
 dmObj.destroy();
+
+// add new disabled event to dateMap object
+dmObj.newDisabledEvent( $date, $title );
 </code></pre>
 
-Note: Varible "dmObj" and "plugin" parameter is the same dateMap instance 
+
 
 Examples : 
 
