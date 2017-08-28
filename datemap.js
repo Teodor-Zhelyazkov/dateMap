@@ -26,7 +26,6 @@ var monthNames = [
 		  	startDate   	: '',
 		  	minDate			: '',
 		  	maxDate			: '',
-		  	position 		: 'right',
 		  	weekendColor    : '#a52a2a',
 		  	disabledEvents	: [],
 		  	moveDate    	: function(currentWindowDate, moveObj, plugin){},
@@ -143,13 +142,11 @@ var monthNames = [
 	*
 	*	@param {String} OR {Date}
 	*	@param {String}
-	*	@param {dateMap}
 	*
 	*	@return {Void}
 	*
 	*   $date String 	   :  dFormat
 	*   $date Date   	   :  new Date object
-	*   $instance Object   :  'dateMap' object (Optional)
 	*/
 	dateMap.prototype.newDisabledEvent = function( $date, $title )
 	{
