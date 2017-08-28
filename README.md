@@ -51,6 +51,8 @@ dmObj.newDisabledEvent( $date, $title );
 
 <h4>Events usage </h4>
 
+
+
 var dmObj = new dateMap({
     selector   : "#events_example",
     selectDate : function(selectedDate, plugin, event)
@@ -70,6 +72,9 @@ var dmObj = new dateMap({
     
     },
 });
+
+
+
 
 
 Examples : 
