@@ -8,7 +8,7 @@ dateMap it's a simple pure javascript library for selecting dates.
 https://github.com/Teodor-Zhelyazkov/dateMap.git
 
 <script src="datemap.js"></script>
-<link href="datemap.css">
+< link href="datemap.css">
 
 
 
