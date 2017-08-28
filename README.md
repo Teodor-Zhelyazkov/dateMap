@@ -32,7 +32,9 @@ var dmObj = new dateMap({
 Note: Variable "dmObj" and "plugin" parameter is the same dateMap instance 
 
 <h4>Options usage </h4>
+
 ```
+
 var dmObj = new dateMap({
     selector     	: "#default_example",
     dateFormat   	: 'm/d/y',
