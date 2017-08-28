@@ -37,7 +37,7 @@ Note: Variable "dmObj" and "plugin" parameter is the same dateMap instance
 <pre>
 // close calendar window
 dmObj.closeWindow();
-
+<br />
 // refresh calendar object
 dmObj.refresh();
 
