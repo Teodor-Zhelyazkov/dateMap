@@ -16,7 +16,17 @@ Include the library
 < link rel="stylesheet" href="datemap.css">
 </code></pre>
 
+Init dateMap
 
+<pre><code>
+<input type = "text" id = "default_example" />
+</code></pre>
+
+<pre><code>
+var dmObj = new dateMap({
+  selector : "#default_example",
+});
+</code></pre>
 
 Examples : 
 
