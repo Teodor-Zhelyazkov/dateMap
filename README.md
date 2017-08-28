@@ -5,18 +5,18 @@ dateMap it's a simple pure javascript library for selecting dates.
 
 <h3>Instalation</h3>
 
-Download files datemap.js and datemap.css from this repository
+Download files <b>datemap.js</b> and <b>datemap.css</b> from this repository
 
 <h3>Usage</h3>
 
-Include the library
+Include dateMap library on your webpage
 
 <pre><code>
 < script src="datemap.js"></script>
 < link rel="stylesheet" href="datemap.css">
 </code></pre>
 
-Init dateMap
+Init dateMap 
 
 <pre><code>
 < input type = "text" id = "default_example" / >
