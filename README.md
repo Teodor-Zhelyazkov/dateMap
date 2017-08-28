@@ -3,6 +3,7 @@ dateMap it's a simple pure javascript library for selecting dates.
 
 # get started 
 
+<h2>Instalation</h2>
 <script src="datemap.js"></script>
 <link rel="stylesheet" href="datemap.css">
 
