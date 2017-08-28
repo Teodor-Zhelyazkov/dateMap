@@ -5,13 +5,20 @@ dateMap it's a simple pure javascript library for selecting dates.
 
 <h3>Instalation</h3>
 
-Download files datemap.js and datemap.css 
+Download files datemap.js and datemap.css from this repository
 
 <h3>Usage</h3>
 
 <code>
-<script src="datemap.js"></script>
-<link rel="stylesheet" href="datemap.css">
+< script src="datemap.js"></script>
+< link rel="stylesheet" href="datemap.css">
+
+<input type = "text" id = "default_example" />
+			<script>
+				var dmObj = new dateMap({
+					selector : "#default_example",
+				});
+			</script>
 </code>
 
 
