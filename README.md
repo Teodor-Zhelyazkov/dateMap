@@ -62,7 +62,7 @@ var dmObj = new dateMap({
     {
 
     },
-    beforeShow :function(plugin)
+    beforeShow :function(plugin) 
     {
 
     },
