@@ -9,16 +9,10 @@ Download files datemap.js and datemap.css from this repository
 
 <h3>Usage</h3>
 
+Include the library
 <code>
 < script src="datemap.js"></script>
 < link rel="stylesheet" href="datemap.css">
-
-<input type = "text" id = "default_example" />
-			<script>
-				var dmObj = new dateMap({
-					selector : "#default_example",
-				});
-			</script>
 </code>
 
 
