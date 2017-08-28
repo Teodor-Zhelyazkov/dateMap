@@ -34,7 +34,12 @@ var dmObj = new dateMap({
 
 <h4>Method usage </h4>
 <pre><code>
+// close calendar window
 dmObj.closeWindow();
+// refresh calendar object
+dmObj.refresh();
+// destroy dateMap instance
+dmObj.destroy();
 </code></pre>
 
 Note: Varible "dmObj" and "plugin" parameter is the same dateMap instance 
