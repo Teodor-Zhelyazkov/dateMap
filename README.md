@@ -83,9 +83,13 @@ var dmObj = new dateMap({
     {
 
     },
-    moveDate   : function(current, moveObj, plugin)
+    moveDate   : function(currentDate, moveObj, plugin)
     {
-
+        /**
+        * fires when user move months/years on calendar
+        * @param this represents active calendar field 
+        * @param moveObj 
+        */
     },
     beforeShow :function(plugin)
     {
