@@ -81,15 +81,29 @@ var dmObj = new dateMap({
     selector   : "#events_example",
     selectDate : function(selectedDate, plugin, event)
     {
-
+        /**
+        *   fires when user selects date on calendar
+        *   @param this represents active calendar field 
+        *   @param selectedDate 
+        *   @param plugin 
+        */
     },
     moveDate   : function(currentDate, moveObj, plugin)
     {
         /**
-        * fires when user move months/years on calendar
-        * @param this represents active calendar field 
-        * @param moveObj 
+        *   fires when user move months/years on calendar
+        *   @param this represents active calendar field 
+        *   @param moveObj 
+        *   @param plugin 
         */
+    },
+    minMaxClicked   : function(rangeTyoe, currentDate, plugin)
+    {
+    
+    },
+		eventClicked    : function(title, currentDate, plugin)
+    {
+    
     },
     beforeShow :function(plugin)
     {
