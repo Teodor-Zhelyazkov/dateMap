@@ -101,7 +101,7 @@ var dmObj = new dateMap({
     {
     
     },
-		eventClicked    : function(title, currentDate, plugin)
+    eventClicked    : function(title, currentDate, plugin)
     {
     
     },
